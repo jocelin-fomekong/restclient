@@ -1,1 +1,222 @@
-
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 4300,
+      "quantity": 600,
+      "selected": true,
+      "availlable": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 300,
+      "quantity": 100,
+      "selected": true,
+      "availlable": true
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 1200,
+      "quantity": 100,
+      "selected": false,
+      "availlable": true
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "name": "Boots",
+      "price": 4200,
+      "quantity": 300,
+      "selected": true,
+      "availlable": true
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 430,
+      "quantity": 600,
+      "selected": true,
+      "availlable": true
+    }
+  ],
+  "request": [
+    {
+      "id": 1,
+      "HEADER": {
+        "CORRELATION_ID": "43e05c4f7d2385b7",
+        "COMPANY_CODE": "X025",
+        "REQUEST_DATE_TIME": "2020-09-18T10:02:06.232Z",
+        "SOURCE_SYSTEM": "BL",
+        "TARGET_SYSTEM": "SOA"
+      },
+      "PAYLOAD": {
+        "COMPENSATION_MASTER_DATA": {
+          "EMPLOYEE_ERP_ID": "18406",
+          "NBR_MONTH_PAY_TH": "12",
+          "NBR_HOUR_PAY_TH": "0",
+          "COMPANY_ERP_ID": " X025",
+          "POTENTIAL_BONUS": "0",
+          "PAYMENT_DATE": "2020-01-01",
+          "UPDATE_DATE": "2020-07-03T18:10:23Z",
+          "OSMOSE_CODE": "32297",
+          "EFFECTIVE_DATE": "2020-01-01",
+          "CALENDAR_MONTH": "202001",
+          "PAYROLL_TRANSACTIONAL_DATA": [
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2020-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            },
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2021-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "HEADER": {
+        "CORRELATION_ID": "43e05c4f7d2385b7",
+        "COMPANY_CODE": "X025",
+        "REQUEST_DATE_TIME": "2020-09-18T10:02:06.232Z",
+        "SOURCE_SYSTEM": "BL",
+        "TARGET_SYSTEM": "SOA"
+      },
+      "PAYLOAD": {
+        "COMPENSATION_MASTER_DATA": {
+          "EMPLOYEE_ERP_ID": "18406",
+          "NBR_MONTH_PAY_TH": "12",
+          "NBR_HOUR_PAY_TH": "0",
+          "COMPANY_ERP_ID": " X025",
+          "POTENTIAL_BONUS": "0",
+          "PAYMENT_DATE": "2020-01-01",
+          "UPDATE_DATE": "2020-07-03T18:10:23Z",
+          "OSMOSE_CODE": "32297",
+          "EFFECTIVE_DATE": "2020-01-01",
+          "CALENDAR_MONTH": "202001",
+          "PAYROLL_TRANSACTIONAL_DATA": [
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2020-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            },
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2021-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            }
+          ]
+        }
+      },
+      "id": 2
+    },
+    {
+      "HEADER": {
+        "CORRELATION_ID": "43e05c4f7d2385b7",
+        "COMPANY_CODE": "X025",
+        "REQUEST_DATE_TIME": "2020-09-18T10:02:06.232Z",
+        "SOURCE_SYSTEM": "BL",
+        "TARGET_SYSTEM": "PASS"
+      },
+      "PAYLOAD": {
+        "COMPENSATION_MASTER_DATA": {
+          "EMPLOYEE_ERP_ID": "99999",
+          "NBR_MONTH_PAY_TH": "12",
+          "NBR_HOUR_PAY_TH": "0",
+          "COMPANY_ERP_ID": " X025",
+          "POTENTIAL_BONUS": "0",
+          "PAYMENT_DATE": "2020-01-01",
+          "UPDATE_DATE": "2020-07-03T18:10:23Z",
+          "OSMOSE_CODE": "32297",
+          "EFFECTIVE_DATE": "2020-01-01",
+          "CALENDAR_MONTH": "202001",
+          "PAYROLL_TRANSACTIONAL_DATA": [
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2020-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            },
+            {
+              "AMOUNT": "0",
+              "TOP_RUBRIC": "SALBAS",
+              "ACCOUNTING_PERIOD": "202009",
+              "COMPUTATION_PERIOD": "202009",
+              "CURR_ISO_CD": "EUR",
+              "NBR_MONTH": "1",
+              "PAYROLL_START_DATE": "2020-09-01",
+              "TRANSFER_DATE": "2020-01-01",
+              "COUNTRY_ISO_CODE": "NLD",
+              "PAYROLL_TRANCHE": "",
+              "EFFECTIVE_DATE": "2021-01-01",
+              "PAYROLL_END_DATE": "2020-09-30",
+              "PAYMENT_DATE": "2020-01-01",
+              "PERIODICITY": "MONTHLY_AMOUNT"
+            }
+          ]
+        }
+      },
+      "id": 3
+    }
+  ]
+}
